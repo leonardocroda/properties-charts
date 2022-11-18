@@ -67,3 +67,10 @@ input[type="range"]::-webkit-slider-runnable-track {
 h1 {
   text-align: center;
 }
+
+@media (max-width: 1000px) {
+  div.chart {
+    background-color: #fff;
+    width: 100%;
+  }
+}
